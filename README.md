@@ -14,7 +14,13 @@ xnew2 - pre-final table have subject, activity label with dim of 10299 * 81
 summary - final table with the average of each variable for each activity and each subject.
 
 
-The dataset includes the following files:
+Notes:
+==========================================
+
+- the directory in the code book should be changed to fit its real directory in your computer.Otherwise, data can not be accessed. 
+- the raw dataset could be download by https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The raw dataset includes the following files that is used in the project:
 =========================================
 
 - 'README.txt'
@@ -27,10 +33,3 @@ The dataset includes the following files:
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-Notes:
-==========================================
-
-the directory in the code book should be changed to fit its real directory in your computer.Otherwise, data can not be accessed. 
-
-
