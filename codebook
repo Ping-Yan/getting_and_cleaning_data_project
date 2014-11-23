@@ -1,0 +1,19 @@
+
+Notes:
+=================================================
+please make sure you download the raw dataset and changed the directory in the code before you start running the code.
+
+file you should have in the process of the code:
+=================================================
+x - the merging data set of x train and x test with the dim of 10299 * 561
+y - the merge data set of y train and y test with the dim of 10299 * 1
+subject - the merge data set of subtrain and subtest with the dim of 10299 * 1
+q - the list table contain all the list in x that have mean() and std()
+xnew - subset table of x that only has mean and std measurement
+xnew2 - pre-final table have subject, activity label with dim of 10299 * 81
+summary - final table with the average of each variable for each activity and each subject.
+
+different of xnew2 and summary:
+=================================================
+although the column name of xnew2 and summary are same, the summary table calculate the average of each variable by activity name and subject name.
+you could understand in this way, if the name of one specific column in xnew2 is 'A' with its subject=1 and activity name =standing(you can find more than one of this value), the value with the same column name in 'summary' should be the mean of those value.
